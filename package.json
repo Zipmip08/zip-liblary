@@ -1,0 +1,38 @@
+{
+  "name": "@zip/-liblary",
+  "version": "1.0.0",
+  "description": "Private Zod validation schemas for user fields with Persian error messages for Zip company",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "zod",
+    "validation",
+    "user",
+    "schema",
+    "persian"
+  ],
+  "author": "amirhosein",
+  "license": "MIT",
+  "dependencies": {
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "restricted"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zipmip08/zip-liblary.git"
+  }
+}
