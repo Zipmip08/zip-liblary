@@ -19,7 +19,7 @@
   "author": "amirhosein",
   "license": "MIT",
   "dependencies": {
-    "zod": "^3.22.4"
+    "zod": "^3.24.4"
   },
   "devDependencies": {
     "typescript": "^5.2.2"
