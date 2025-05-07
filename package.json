@@ -1,5 +1,5 @@
 {
-  "name": "@zip/-liblary",
+  "name": "@zip/zip-liblary",
   "version": "1.0.0",
   "description": "Private Zod validation schemas for user fields with Persian error messages for Zip company",
   "main": "dist/index.js",
